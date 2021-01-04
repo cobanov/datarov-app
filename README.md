@@ -1,3 +1,4 @@
 # datarov-app
-🦊 yeni proje mi geliyor?
-![datarov](datarov.png)
+## 🦊 Yeni proje mi geliyor?
+
+![datarov](app/static/assets/datarov.png)
