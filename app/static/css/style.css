@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+  background-color: black;
+    font-family:"Ubuntu";
+}
+
+.grid-container {
+  display: grid;
+  color: white;
+
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 20px 20px;
+  grid-template-areas:
+    "top-left logo top-right"
+    "ads main sidebar ";
+}
+
+.logo {
+  grid-area: logo;
+  text-align: center;
+}
+
+.top-left {
+  grid-area: top-left;
+}
+
+.top-right {
+  grid-area: top-right;
+}
+
+.ads {
+  grid-area: ads;
+}
+
+.main {
+  grid-area: main;
+}
+
+.navbar{
+  text-align:center;
+}
+
+.ui.inverted.menu{
+  margin:10px;
+}
+
+/* home */
+.rules{
+  text-align: center;
+  color:white;
+}
+
+.disclaimer{
+  text-align: center;
+  color:white;
+  font-size: 12px;
+}
+
+.success{
+  word-break: break-word;
+  text-align: center;
+}
+
+
+.ui.form{
+  text-align:center;
+  margin: 20px;
+}
+
+
+/* Entries */
+.entry{
+  display: flex;
+}
+
+.ui.label{
+  font-size: 16px;
+  word-break: break-word;
+  flex-grow: 1;
+  min-height: 50px;
+  padding:16px;
+  margin:auto;
+  display: block;
+  overflow: hidden;
+}
+
+.ui.fade.reveal{
+  flex-grow: 1;
+  display: block;
+  overflow: hidden;
+}
+
+
+.ui.labeled.button{
+  flex-grow: 0;
+  margin:auto;
+  margin-left:auto;
+  min-width:fit-content;
+  transform: scale(0.8);
+}
+
+.under_box{
+  margin-top: 1px;
+  margin-bottom: 25px;
+  color:grey;
+  font-size:12px;
+}
+
+/* Sidebar */
+.sidebar {
+  grid-area: sidebar;
+}
+
+.contributors{
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
