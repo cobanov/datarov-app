@@ -1,0 +1,7 @@
+,Unnamed: 0,Unnamed: 0.1,Unnamed: 0.1.1,Id,SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm,Species
+1,7,20,70,71,5.9,3.2,4.8,1.8,Iris-versicolor
+2,9,27,77,78,6.7,3.0,5.0,1.7,Iris-versicolor
+3,11,33,83,84,6.0,2.7,5.1,1.6,Iris-versicolor
+4,15,51,101,102,5.8,2.7,5.1,1.9,Iris-virginica
+5,17,53,103,104,6.3,2.9,5.6,1.8,Iris-virginica
+6,20,56,106,107,4.9,2.5,4.5,1.7,Iris-virginica
